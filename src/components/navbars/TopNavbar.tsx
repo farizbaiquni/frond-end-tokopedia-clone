@@ -11,14 +11,18 @@ export default function TopNavbar() {
             width={20}
             height={20}
           />
-          <p>Download Tokopedia App</p>
+          <p className="cursor-pointer hover:text-green-500">
+            Download Tokopedia App
+          </p>
         </div>
         <div className="flex space-x-4">
-          <p>About Tokopedia</p>
-          <p>Mitra Tokopedia</p>
-          <p>Pusat Edukasi Seller</p>
-          <p>Promo</p>
-          <p>Tokopedia Care</p>
+          <p className="cursor-pointer hover:text-green-500">About Tokopedia</p>
+          <p className="cursor-pointer hover:text-green-500">Mitra Tokopedia</p>
+          <p className="cursor-pointer hover:text-green-500">
+            Pusat Edukasi Seller
+          </p>
+          <p className="cursor-pointer hover:text-green-500">Promo</p>
+          <p className="cursor-pointer hover:text-green-500">Tokopedia Care</p>
         </div>
       </div>
     </nav>
