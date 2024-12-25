@@ -1,12 +1,12 @@
-import MidNavbar from "@/components/navbars/MidNavbar";
+import BottomNavbar from "@/components/navbars/BottomNavbar";
 import TopNavbar from "../components/navbars/TopNavbar";
 
 export default function Home() {
   return (
     <div className="text-gray-700">
-      <div className="flex flex-col px-8">
+      <div className="bg-whiteflex flex-col px-10">
         <TopNavbar />
-        <MidNavbar />
+        <BottomNavbar />
       </div>
     </div>
   );
