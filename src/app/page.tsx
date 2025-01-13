@@ -1,13 +1,13 @@
-import BottomNavbar from "@/components/navbars/BottomNavbar";
-import TopNavbar from "../components/navbars/TopNavbar";
+import Navbar from "@/components/navbars/Navbar";
+import CarouselLandingPage from "./landing_page/CarouselLandingPage";
 
 export default function Home() {
   return (
-    <div className="text-gray-700">
-      <div className="bg-whiteflex flex-col px-10">
-        <TopNavbar />
-        <BottomNavbar />
-      </div>
+    <div className="h-[1000px] text-gray-700">
+      <Navbar />
+      <main className="mx-40 mt-[134px]">
+        <CarouselLandingPage />
+      </main>
     </div>
   );
 }

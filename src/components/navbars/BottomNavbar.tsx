@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function BottomNavbar() {
   return (
-    <div className="flex items-center py-5">
+    <div className="flex items-center bg-white pb-10 pt-2">
       {/* Tokopedia Logo */}
       <Image
         className="cursor-pointer"
@@ -11,7 +11,8 @@ function BottomNavbar() {
         width={155}
         height={155}
       />
-      <p className="mx-8 cursor-pointer font-semibold">Category</p>
+
+      <p className="mx-6 cursor-pointer font-semibold">Category</p>
 
       <div className="relative flex flex-1 items-center">
         {/* Search Bar */}
@@ -79,8 +80,8 @@ function BottomNavbar() {
           <p className="truncate">User</p>
         </div>
 
-        {/* BOTTOM PART OF NAVBAR */}
-        <div className="absolute top-full flex w-full justify-between space-x-2 pt-2 text-sm text-gray-700">
+        {/* ===== BOTTOM PART OF NAVBAR ===== */}
+        <div className="absolute top-full flex w-full justify-between space-x-2 bg-white pt-2 text-sm text-gray-700">
           <div className="flex space-x-3">
             <p>Samsung s24</p>
             <p>Nintendo Switch</p>
