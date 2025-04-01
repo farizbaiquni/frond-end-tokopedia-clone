@@ -8,17 +8,17 @@ const slides = [
   {
     id: 1,
     image:
-      "/images/landing_page/carousel/9d652b24-1fa0-4e7b-a921-b70787506e1d.jpg.webp",
+      "/images/homepage/carousel/9d652b24-1fa0-4e7b-a921-b70787506e1d.jpg.webp",
   },
   {
     id: 2,
     image:
-      "/images/landing_page/carousel/1c3336d1-7103-40d4-8c4e-8d6184b11342.jpg.webp",
+      "/images/homepage/carousel/1c3336d1-7103-40d4-8c4e-8d6184b11342.jpg.webp",
   },
   {
     id: 3,
     image:
-      "/images/landing_page/carousel/473d65da-d0b0-40c8-a874-178d10dc5e75.jpg.webp",
+      "/images/homepage/carousel/473d65da-d0b0-40c8-a874-178d10dc5e75.jpg.webp",
   },
 ];
 
@@ -60,10 +60,7 @@ function Homepage() {
 
   return (
     <div className="group relative">
-      <div
-        className="embla h-[300px] w-full overflow-hidden bg-blue-400"
-        ref={emblaRef}
-      >
+      <div className="embla h-[340px] w-full overflow-hidden" ref={emblaRef}>
         <div className="embla__container flex h-full">
           {slides.map((slide) => (
             <div
